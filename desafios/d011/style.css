@@ -24,7 +24,7 @@ header {
 
 h1 {
     font-family: var(--fonte-head);
-    font-size: 136px;
+    font-size: 10vw;
     font-weight: normal;
     color: white;
     text-align: center;
@@ -50,17 +50,15 @@ header > p {
 
 main p {
     font-family: var(--fonte-main);
-    font-size: 47px;
-    text-align: left;
+    font-size: 3vw;
     line-height: 2em;
     
 }
 
-
-
-article {
-    padding-bottom: 160px;
+section {
+   padding:  74px 0px 48px 40px;
 }
+
 
 footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -74,30 +72,39 @@ footer {
 
 #container {
     background-image: url('imagens/background001.jpg');
-    background-position: center center;
+    background-position: right center;
     background-size: cover;
+    background-attachment: fixed;
     padding-top: 3px;
     padding-bottom: 60px;
     
-    
-    
 
+    
 }
 
 #conteudo {
     color: white;
     background-color: #010F00;
     width: 40%;
+    margin-top: 60px;
+    
     
 }
 
 .container {
     background-image: url('imagens/background002.jpg');
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
     padding-top: 3px;
     padding-bottom: 60px;
 }
 
 .conteudo {
+    background-color: #00000065;
     color: white;
-    background-color: #010f0081;
+    width: 40%;
+    margin-top: 60px;
+
 }
+
