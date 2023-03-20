@@ -9,18 +9,28 @@
     --fonte-section:'Rajdhani', sans-serif;
 }
 
+:root {
+    --cor01:#1578BF;
+    --cor02:#0D4873;
+    --cor03:#526775;
+    --cor04:#1C3140;
+    --cor05:#041725;
+}
+
+
 *{
     margin: 0px;
     padding: 0px;
 }
-/*background-image: linear-gradient(to right, #030f037e,*/
+
 body {
-    background-color: rgb(98, 88, 128);
+    background-color: #0a5b72;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
-    
+    color: #ffffffd5;
+    background-image: linear-gradient(to top, var(--cor01), var(--cor04), var(--cor05));
     font-size: 20px;
     font-family: var(--fonte-header);
     text-align: center;
@@ -44,6 +54,7 @@ main {
     margin: auto;
     margin-bottom: 30px;
     padding: 20px;
+    margin-top: 1px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.205);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -53,7 +64,6 @@ section {
     
     padding-top: 10vh;
     padding-bottom: 10vh;
-    
     padding-right: 30px;
       font-family: var(--fonte-section);
     font-weight: bolder;
@@ -71,11 +81,13 @@ img {
     list-style-position: inside;
     text-align: center;
     color: black;
+    
+   
    
 }
-
+/*background-image: linear-gradient(to right,#040c047e, transparent );*/
 h2 {
-    background-image: linear-gradient(to right,#040c047e, transparent );
+    background-image: linear-gradient(to right, var(--cor02), transparent);
     padding: 20px 0px 20px 0px;
     font-family: var(--fonte-header);
     font-size: 30px;
@@ -85,6 +97,7 @@ h2 {
 }
 
 table {
+
     margin: auto;
     width: 400px;
     height: 200px;
@@ -92,11 +105,12 @@ table {
 }
 
 caption {
+    background-color: #040c045b;
     font-family: var(--fonte-header);
     font-weight: bolder;
     border: 1px solid black;
     margin-top: 0px;
-    background-color: lightgray;
+    
     font-size: 20px;
     padding: 15px 0px 15px 0px;
 }
@@ -111,10 +125,16 @@ th {
 }
 
 #container {
+    
     padding: 10px 0px 10px 0px;
-    background-color: rgb(142, 105, 201);
-    box-shadow: 2px 1px 3px #00000063;
     overflow: auto;
     border-top-left-radius: 5px;
     border-bottom-right-radius: 5px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
 }
